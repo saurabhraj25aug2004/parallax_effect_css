@@ -1,0 +1,78 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+body{
+    padding:0;
+    margin:0;
+}
+
+.section-light{
+    background-color: rgb(195, 157, 156);
+    color:rgb(34, 34, 35);
+}
+
+
+.section-Dark{
+    background-color: rgb(185, 167, 142);
+    color:rgb(17, 24, 17);
+}
+.zero-image{
+    background-image: url(flag.webp);
+    min-height: 650px;
+    opacity:1;
+    
+}
+
+.first-image{
+    background-image: url(statue.jpg);
+    min-height: 600px;
+    opacity:1;
+}
+
+.second-image{
+    background-image: url(taj.jpg);
+    min-height: 650px;
+    opacity:1;
+}
+
+.third-image{
+    background-image: url(ram.webp);
+    min-height: 650px;
+    opacity:1;
+}
+
+.fourth-image{
+    background-image: url(reedfort.jpg);
+    min-height: 650px;
+    opacity:1;
+}
+
+.fiveth-image{
+    background-image: url(nubra.jpg);
+    min-height: 650px;
+    opacity:1;
+}
+.image{
+    background-attachment: fixed;
+    background-size:cover;
+}
+.text-content{
+   
+    top: 300px ;
+    position:relative;
+    justify-content: center;
+    text-align: center;
+   font-size: xx-large;
+   background-color: bisque;
+   width:30%;
+   left:430px;
+  
+   text-transform: uppercase;
+
+
+}
+
